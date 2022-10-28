@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    android:paddingBottom="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="#D0272222">
+
+        <TableRow
+            android:id="@+id/row_header"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:background="#00020202"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="319dp"
+                android:layout_height="94dp"
+                android:text="Horror Movies"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#F4F0F0"
+                android:textSize="34sp"
+                android:textStyle="italic"
+                android:typeface="serif" />
+        </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/row0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:id="@+id/movieView1"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="9dp"
+            app:srcCompat="@drawable/theshiningposter" />
+
+        <ImageView
+            android:id="@+id/movieView2"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="9dp"
+            app:srcCompat="@drawable/screamposter" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#A6FDFDFD"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="The Shining"
+            android:textColor="#C62A2A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#A6FDFDFD"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:text="Scream"
+            android:textColor="#C62A2A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/movieView3"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="9dp"
+            app:srcCompat="@drawable/theexorcistposter" />
+
+        <ImageView
+            android:id="@+id/movieView4"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="9dp"
+            app:srcCompat="@drawable/jawsposter" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#A6FDFDFD"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="The Exorcist"
+            android:textColor="#C62A2A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#A6FDFDFD"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Jaws"
+            android:textColor="#C62A2A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </TableRow>
+
+</TableLayout>

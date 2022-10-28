@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Horror 101</string>
+    <string name="app_title">Horror Movies</string>
+    <string name="icon_holder">Icon Holder</string>
+</resources>
